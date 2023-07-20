@@ -1,5 +1,6 @@
 import Taro from "@tarojs/taro";
 import { Text, View } from "@tarojs/components";
+import classNames from "classnames";
 
 import './index.scss'
 
@@ -12,7 +13,7 @@ export default function PostCard(props) {
             })
         }
     }
-    return <View className='post-card' onClick={handleClick}>
+    return <View className={classNames('post-card', { postcard__isList: props.isList })} onClick={handleClick}>
         <View className='post-title'>
             <Text>{props.title}</Text>
         </View>
@@ -20,4 +21,8 @@ export default function PostCard(props) {
             <Text>{props.content}</Text>
         </View>
     </View>
+}
+
+PostCard.defaultProps = {
+    isList: ''
 }
