@@ -8,9 +8,9 @@ import './index.scss'
 
 export default function Index() {
   const [posts, setPosts] = useState([{ title: '示例标题', content: '示例内容' }])
-  const [formTitle, setFormTitle] = useState('')
-  const [formContent, setFormContent] = useState('')
-  const [isOpened, setIsOpened] = useState(false)
+  const [formTitle, setFormTitle] = useState<string>('')
+  const [formContent, setFormContent] = useState<string>('')
+  const [isOpened, setIsOpened] = useState<boolean>(false)
 
   function handleSubmit(e) {
     e.preventDefault()

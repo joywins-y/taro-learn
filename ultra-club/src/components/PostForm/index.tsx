@@ -3,7 +3,18 @@ import { AtButton } from "taro-ui";
 
 import './index.scss'
 
-export default function PostForm(props) {
+interface IProps {
+    formTitle: string;
+    formContent: string;
+}
+
+interface IEvent {
+    handleSubmit: (e) => void;
+    handleTitleInput: (e) => void;
+    handleContentInput: (e) => void;
+}
+
+export default function PostForm(props: IProps & IEvent) {
     return <View className='post-form'>
         <Form onSubmit={props.handleSubmit}>
             <View>

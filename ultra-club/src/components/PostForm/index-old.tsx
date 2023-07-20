@@ -2,7 +2,18 @@ import { Button, Form, Input, Text, Textarea, View } from "@tarojs/components";
 
 import './index.scss'
 
-export default function PostForm(props) {
+interface IProps {
+    formTitle: string;
+    formContent: string;
+}
+
+interface IEvent {
+    handleSubmit: (e) => void;
+    handleTitleInput: (e) => void;
+    handleContentInput: (e) => void;
+}
+
+export default function PostForm(props: IProps & IEvent) {
     return <View className='post-form'>
         <View>添加新的帖子</View>
         <Form onSubmit={props.handleSubmit}>

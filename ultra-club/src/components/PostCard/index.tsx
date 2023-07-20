@@ -4,7 +4,13 @@ import classNames from "classnames";
 
 import './index.scss'
 
-export default function PostCard(props) {
+interface IProps {
+    title: string | undefined;
+    content: string | undefined;
+    isList?: boolean;
+}
+
+export default function PostCard(props: IProps) {
     const handleClick = () => {
         if (props.isList) {
             const { title, content } = props;
