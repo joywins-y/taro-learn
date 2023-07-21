@@ -1,15 +1,13 @@
-import { Button } from "@tarojs/components";
 import { useState } from "react";
+import { Button } from "@tarojs/components";
 
-interface IProps {
-
-}
+import './index.scss'
 
 interface IEvent {
-
+    setLoginInfo: (...rest) => void;
 }
 
-export default function LoginButton(props) {
+export default function LoginButton(props: IEvent) {
     const [isLogin, setIsLogin] = useState<boolean>(false)
 
     async function onGetUserInfo(e) {

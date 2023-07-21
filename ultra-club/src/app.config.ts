@@ -1,9 +1,9 @@
 export default defineAppConfig({
   pages: [
     "pages/index/index",
+    "pages/lottery/lottery",
     "pages/mine/mine",
     "pages/post/post",
-    "pages/lottery/lottery",
   ],
   tabBar: {
     list: [
@@ -14,10 +14,10 @@ export default defineAppConfig({
         selectedIconPath: "./images/homeSelected.png",
       },
       {
-        pagePath: "pages/lottery/lottery",
-        text: "抽奖",
-        iconPath: "./images/mine.png",
-        selectedIconPath: "./images/mineSelected.png",
+        pagePath: 'pages/lottery/lottery',
+        text: '抽奖',
+        iconPath: "./images/home.png",
+        selectedIconPath: "./images/homeSelected.png",
       },
       {
         pagePath: "pages/mine/mine",

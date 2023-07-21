@@ -2,7 +2,7 @@ import React from 'react'
 import { LuckyWheel, LuckyGrid, SlotMachine } from '@lucky-canvas/taro/react'
 import { Button, Text, View } from '@tarojs/components'
 
-import slotbg from '../../images/slot-bg.png'
+import slotbg from '../../images/slotBg.png'
 
 export default class Index extends React.Component {
     state = {

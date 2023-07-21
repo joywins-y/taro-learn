@@ -6,6 +6,8 @@ import LoginButton from "../LoginButton";
 import WeappLoginButton from '../WeappLoginButton'
 import AlipayLoginButton from '../AlipayLoginButton'
 
+import './index.scss'
+
 interface IProps {
     userInfo: any;
     isLogged: boolean;
@@ -13,7 +15,7 @@ interface IProps {
 
 interface IEvent {
     handleClick: () => void;
-    setLoginInfo: (v) => void;
+    setLoginInfo: (...rest) => void;
 }
 
 export default function Header(props: IProps & IEvent) {

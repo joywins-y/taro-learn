@@ -3,6 +3,8 @@ import Taro from "@tarojs/taro";
 import { useState } from "react";
 import { AtButton, AtImagePicker } from "taro-ui";
 
+import './index.scss'
+
 interface IProps {
     files: any;
     formNickName: string;

@@ -2,7 +2,6 @@ import { Component, PropsWithChildren } from 'react'
 import { View } from '@tarojs/components'
 import { PostCard, PostForm } from '../../components'
 
-import "taro-ui/dist/style/components/button.scss" // 按需引入
 import './index.scss'
 
 export default class Index extends Component<PropsWithChildren> {
