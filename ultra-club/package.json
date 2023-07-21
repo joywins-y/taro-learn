@@ -36,6 +36,7 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
+    "@lucky-canvas/taro": "^0.0.14",
     "@tarojs/components": "3.6.8",
     "@tarojs/helper": "3.6.8",
     "@tarojs/plugin-framework-react": "3.6.8",

@@ -1346,6 +1346,13 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@lucky-canvas/taro@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@lucky-canvas/taro/-/taro-0.0.14.tgz#4456ac3a9d703d534a51e93a5877112559d980c2"
+  integrity sha512-c/H4SSxnyw51PS13wspnTE+mesNA0TgbjjQklHs8QaeGWQ7tlH75LLS7lQiGekDB1j3QgXKPAftWmbhcOUkl7g==
+  dependencies:
+    lucky-canvas "~1.7.19"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -8102,6 +8109,11 @@ lru-cache@^6.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
   integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
+
+lucky-canvas@~1.7.19:
+  version "1.7.27"
+  resolved "https://registry.yarnpkg.com/lucky-canvas/-/lucky-canvas-1.7.27.tgz#ce4689e99aa1945d981f0489304f5f3c1789023d"
+  integrity sha512-Ftz6qD+863bI7xijBmZg3dw3cNEc7odPr70EZQcGA14y3TgTAzH65HPosOCd6kKUlMwhntBaHMx3onoj9MtJRQ==
 
 magic-string@^0.30.0:
   version "0.30.1"
